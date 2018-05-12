@@ -35,6 +35,7 @@
 		9A29C63320A0586100FA08B5 /* NSURLNetworkConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29C63220A0586100FA08B5 /* NSURLNetworkConnector.swift */; };
 		9A29C63520A058E400FA08B5 /* GetDataOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29C63420A058E400FA08B5 /* GetDataOperation.swift */; };
 		9A29C63820A05E4900FA08B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A29C63720A05E4900FA08B5 /* User.swift */; };
+		E2B9F8AE20A740340003AE9B /* UserDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2B9F8AD20A740340003AE9B /* UserDataProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -69,6 +70,7 @@
 		9A29C63220A0586100FA08B5 /* NSURLNetworkConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSURLNetworkConnector.swift; sourceTree = "<group>"; };
 		9A29C63420A058E400FA08B5 /* GetDataOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataOperation.swift; sourceTree = "<group>"; };
 		9A29C63720A05E4900FA08B5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		E2B9F8AD20A740340003AE9B /* UserDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 		9A29C62920A055B800FA08B5 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				E2B9F8AC20A7401F0003AE9B /* Providers */,
 				9A29C63620A05E3F00FA08B5 /* Models */,
 				9A29C62D20A0572A00FA08B5 /* Networking */,
 				9A29C62A20A055C200FA08B5 /* Operations */,
@@ -181,6 +184,14 @@
 				9A29C63720A05E4900FA08B5 /* User.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E2B9F8AC20A7401F0003AE9B /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				E2B9F8AD20A740340003AE9B /* UserDataProvider.swift */,
+			);
+			path = Providers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 				9A29C62720A0554000FA08B5 /* Timeline.swift in Sources */,
 				9A29C61E20A0554000FA08B5 /* ParameterEncoding.swift in Sources */,
 				9A29C63320A0586100FA08B5 /* NSURLNetworkConnector.swift in Sources */,
+				E2B9F8AE20A740340003AE9B /* UserDataProvider.swift in Sources */,
 				9A29C63820A05E4900FA08B5 /* User.swift in Sources */,
 				9A29C62220A0554000FA08B5 /* Result.swift in Sources */,
 				9A29C63520A058E400FA08B5 /* GetDataOperation.swift in Sources */,
